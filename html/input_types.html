@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+    <h1>Input types in HTML</h1>
+    <h2>Complete Registration form</h2>
+    <form action="submitted.html">
+        <fieldset>
+            <legend>personal details</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="fname">First Name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="fname" required pattern="[A-Za-z]{5,25}">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mname">Middle Name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="lname" required pattern="[A-Za-z]{1}">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lname">Last Name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="lname" required pattern="[A-Za-z]{5,15}">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="dob">Date of birth</label>
+                    </td>
+                    <td>
+                        <input type="date" id="dob" required pattern="\d{4}-\d{2}-\d{2}">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" required>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <table>
+            <tr>
+                <td>
+                    <input type="submit" value="submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+    <h2>Complete Student Information (Formal)</h2>
+    <form action="submitted.html">
+        <fieldset>
+            <legend>student information</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="fullname">Full Name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="fullname" required pattern="[A-Za-z]{5,35}">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="yoj">Year of Join</label>
+                    </td>
+                    <td>
+                        <input list="years" required>
+                        <datalist id="years">
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                        </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="yop">Year of Passedout</label>
+                    </td>
+                    <td>
+                        <input list="years" required>
+                        <datalist id="years">
+                            <option value="2019">2021</option>
+                            <option value="2020">2022</option>
+                            <option value="2021">2023</option>
+                            <option value="2022">2024</option>
+                            <option value="2023">2025</option>
+                        </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Gender</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" id="gender">
+                        <label for="gender">Male</label>
+                        <input type="radio" name="gender" id="gender">
+                        <label for="gender">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="4">
+                        <label>Department</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="dept" id="cs">
+                        <label for="cs">Computer science</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="dept" id="ece">
+                        <label for="ece">Electrical Engineering</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="dept" id="civil">
+                        <label for="civil">Civil Engineering</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="dept" id="mech">
+                        <label for="mech">Mechanical Engineering</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="6">Select one or multiple courses</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="html">
+                        <label for="html">HTML</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="css">
+                        <label for="css">CSS</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="js">
+                        <label for="js">Javascript</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="react">
+                        <label for="react">React</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="bootstrap">
+                        <label for="bootstrap">Bootstrap</label>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <table>
+            <tr>
+                <td>
+                    <input type="submit" value="submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
