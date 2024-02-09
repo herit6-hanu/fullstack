@@ -1,0 +1,14 @@
+h1 {
+    color: red;
+    text-align: center;
+    border: 3px dashed black;
+    font-family: fantasy;
+}
+p {
+    color: blue;
+    font-size: large;
+}
+pre {
+    color: yellow;
+    background-color: black;
+}
