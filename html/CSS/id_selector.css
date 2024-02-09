@@ -1,0 +1,11 @@
+#h1-tag {
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+}
+#p-tag {
+    color: red;
+}
+#pre-tag {
+    color: green;
+}
