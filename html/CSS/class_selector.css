@@ -1,0 +1,13 @@
+.header-class {
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+    border: dashed;
+    border-color: brown;
+}
+.paragraph-class {
+    color: red;
+}
+.pre-class {
+    color: green;
+}
