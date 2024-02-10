@@ -1,0 +1,9 @@
+p::before,p::after {
+    content: url(wallpaperflare.com_wallpaper.jpg);
+} 
+p::first-line {
+    color: red;
+}
+h1::first-letter {
+    color: blueviolet;
+}
