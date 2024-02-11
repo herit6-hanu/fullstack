@@ -1,0 +1,20 @@
+h1 {
+    border: 2px solid green;
+}
+h2 {
+    border: 2px dashed brown;
+}
+h3 {
+    border: 2px dotted red;
+}
+h4 {
+    border-radius:6px;
+    border: 2px double pink;
+}
+h5 {
+    border: 5px ridge gold;
+}
+h6 {
+    border: 2px solid yellow;
+    border-top-left-radius: 3px;
+}
