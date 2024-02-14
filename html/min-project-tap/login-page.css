@@ -1,45 +1,107 @@
 .out-line {
     display: flex;
-    border: 1px solid blue;
     height: 100vh;
     width: 100%;
 }
 
-.section {
-    border: 1px solid blue;
-    height: 90%;
-    width: 25%;
-    margin-top: 2%;
+.set-logo {
     margin-left: 38%;
+    margin-top: 2%;
+    width: 23%;
+    height: 8%;
 }
 
-.place-logo {
-    border: 1px solid blue;
-    margin-bottom: 70%;
-    margin-left: 20%;
-    margin-right: 20%;
-    height: 40px;
+.image {
+    height: 100%;
+    width: 20%;
+    padding-left: 40%;
+    padding-top: 2%;
 }
 
-.image-logo {
-    height: 45px;
-    width: 45px;
-    padding-left: 35%;
-    padding-bottom: 50px;  
-}
-span {
-    border: 2px solid red;
-}
-.sign-in-header {
-    border: 1px solid red;
+.set-your-signin-text {
+    padding-top: 35px;
+    height: 80px;
+    width: 400px;
+    padding-left: 80px;
 }
 
-.another-div{
-    border: 1px solid red;
-}
-
-p {
-    margin-left: 55px;
-    margin-bottom: 60%;
+.sign-text {
+    font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.dont-have {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.signup {
+    font-family: sans-serif;
+    font-size: 11.5px;
+}
+
+/* .sample {
+    border: 1px solid blue;
+}
+
+.sample-2 {
+    border: 1px solid blue;
+} */
+
+#email {
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: white;
+    border-width: 1px;
+}
+
+input::placeholder{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: grey;
+}
+
+#password {
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: white;
+    border-width: 1px;
+}
+
+button {
+    width: 410px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    border-width: 1px;
+}
+
+span {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.one-more {
+    padding-left: 130px;
+    
+}
+.one-more2 {
+    padding-left: 70px;
+}
+
+#continue {
+    font-size: 20px;
+}
+
+#explore {
+    font-size: 13px;
+}
+
+body {
+    background-color: white;
+}
+button:hover {
+    background-color: blue;
 }
