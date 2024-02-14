@@ -1,0 +1,26 @@
+table,tr,th,td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){
+    background-color: whitesmoke;
+}
+
+div {
+    overflow-x: auto;
+}
+td {
+    text-align: center;
+}
+table {
+    width: 100%;
+}
+td,th {
+    padding: 8px;
+    white-space: nowrap;
+}
+h1{
+    color: chocolate;
+    text-align: center;
+}

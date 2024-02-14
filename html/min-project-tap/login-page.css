@@ -77,6 +77,7 @@ button {
     background-color: whitesmoke;
     border-color: whitesmoke;
     border-width: 1px;
+    text-shadow: 2px 2px 5px black;
 }
 
 span {
@@ -104,4 +105,10 @@ body {
 }
 button:hover {
     background-color: blue;
+}
+
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
