@@ -1,0 +1,20 @@
+.flex-container {
+    display: flex;
+    background-color: blueviolet;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.flex-container>div {
+    background-color: grey;
+    padding: 20px;
+    margin: 10px;
+    height: 30px;
+    box-shadow: 5px 5px 5px pink;
+}
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
