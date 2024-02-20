@@ -131,3 +131,23 @@ a {
 .resume:hover,.upstatement:hover {
     color: whitesmoke;
 }
+
+.section-6 {
+    display: flex;
+    padding-top: 2%;
+    margin-left: 20%;
+    height: 15px;
+    width: 15px;
+    flex-direction: row;
+    gap: 30px;
+}
+
+svg {
+    border-radius: 50%;
+    box-shadow: 0 0 10px 5px #45b0a0;
+    height: 30px;
+    width: 30px;
+}
+svg:hover {
+    box-shadow: 0 0 10px 5px white;
+}
