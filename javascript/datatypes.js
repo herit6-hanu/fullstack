@@ -6,3 +6,4 @@ console.log(num);
 var isavail=true;
 console.log(isavail);
 console.log(typeof isavail);
+console.log(typeof(num));
