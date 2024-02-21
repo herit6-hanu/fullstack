@@ -20,3 +20,6 @@ function add (x,y){
 }
 
 console.log(add(67,987));
+
+var keys=Object.keys(person);
+console.log(keys);
