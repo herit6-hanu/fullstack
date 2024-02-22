@@ -5,6 +5,7 @@ person.gender="Male";
 person.funk=function(){
     return "This is a function in funk key"
 }
+person.myname="Sunil bhayya"
 
 console.log(person);
 console.log(person.funk());
@@ -22,4 +23,4 @@ function add (x,y){
 console.log(add(67,987));
 
 var keys=Object.keys(person);
-console.log(keys);
+console.log(keys.length);
