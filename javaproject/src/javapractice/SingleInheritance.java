@@ -11,6 +11,7 @@ public class SingleInheritance {
 	}
 }
 
+// super or parent class
 class A {
 	int a;
 
@@ -18,7 +19,12 @@ class A {
 		System.out.println("this is a method");
 	}
 }
+/**
+ * One subclass inherits the properties & behaviour of one super class is known as single inheritance
+ * class b inherits the properties of class a
+ */
 
+// sub or child class
 class B extends A {
 	int b;
 
