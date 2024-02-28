@@ -20,7 +20,7 @@ class Ayya1 extends Pedhayya1{
 	}
 }
 
-class Bidda extends Pedhayya1{
+class Bidda1 extends Pedhayya1{
 	void fun3() {
 		System.out.println("This is bidda method");
 	}
