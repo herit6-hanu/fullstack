@@ -2,8 +2,9 @@ package javapractice;
 
 public class ObjectCreation {
 	public static void main(String[] args) {
-		ObjectClass o = new ObjectClass();
-		System.out.println(o);
+		ObjectClass ob = new ObjectClass();
+		System.out.println(System.identityHashCode(ob));
+		//System.out.println(o);
 	}
 
 }
