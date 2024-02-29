@@ -1,7 +1,18 @@
 package javapractice;
 
 public class UpCasting {
-
+	public static void main(String[] args) {
+		//Pedhayya1 p=new Ayya1();
+		Pedhayya1 p;
+		p=new Ayya1();
+		p.fun1();
+		((Ayya1)p).fun2(); //downcasting
+		
+		p=new Bidda1();//upcasting
+		p.fun1();
+		p=new Pedhayya1();
+		p.fun1();
+	}
 }
 
 class Pedhayya1 {
