@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body>
+    <script src="events.js" defer></script>
+    <p>Different types of events in js...</p>
+    <p>onclick event</p>
+
+    <button id="counterbutton" onclick="counter(event);">Count</button>
+    <input type="text" id="resbox" readonly>
+    <button id="reset" onclick="reset(event);">Reset</button><br>
+    <p>onchange event</p>
+    <select name="select" id="countries" onchange="afterSelection();">
+        <option value="0" selected>--None--</option>
+        <option value="1">India</option>
+        <option value="2">bangladesh</option>
+        <option value="3">Kenya</option>
+        <option value="4">Japan</option>
+        <option value="5">Spain</option>
+        <option value="6">China</option>
+        <option value="7">Ireland</option>
+        <option value="8">Australia</option>
+        <option value="9">Singapore</option>
+    </select><br>
+    <p>Your selected country</p>
+<input type="text" id="selectedcountry" readonly>
+</body>
+</html>
