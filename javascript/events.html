@@ -14,7 +14,7 @@
     <input type="text" id="resbox" readonly>
     <button id="reset" onclick="reset(event);">Reset</button><br>
     <p>onchange event</p>
-    <select name="select" id="countries" onchange="afterSelection();">
+    <select name="select" id="countries" onchange="afterSelection(event);">
         <option value="0" selected>--None--</option>
         <option value="1">India</option>
         <option value="2">bangladesh</option>
@@ -28,5 +28,10 @@
     </select><br>
     <p>Your selected country</p>
 <input type="text" id="selectedcountry" readonly>
+
+<p>Discussing about the key down</p>
+<input type="text" id="keydowninput" onkeydown="keyDown(event);">
+<br>
+<div style="height: 40px; width: 40px;background-color: aqua;" id="division" onmouseover="mouseOver(event);" onmouseout="mouseOut(event);"></div>
 </body>
 </html>
