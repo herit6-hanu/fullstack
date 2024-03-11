@@ -9,7 +9,6 @@ public class Leetcode1 {
         }
         int integer=Integer.parseInt(s);
         integer++;
-        System.out.println(integer);
         int[] res=new int[0];
         return res;
     }
