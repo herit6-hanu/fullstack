@@ -1,0 +1,29 @@
+p {
+    text-align: center;
+    color: rgb(221, 21, 21);
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+
+.input-section {
+    height: 50px;
+    width: 300px;
+}
+#input {
+    outline: none;
+    border: 1px solid grey;
+    height: 50px;
+    width: 300px;
+}
+
+.button-container {
+    display: grid;
+    height: 50px;
+    width: 370px;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 5px;
+    row-gap: 5px;
+    
+}
