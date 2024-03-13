@@ -1,0 +1,24 @@
+#main {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    place-items: center;
+    margin-top: 20%;
+}
+
+#main-text {
+    background-color: black;
+    color: #fff;
+    border-radius: 50px;
+}
+
+button {
+    background-color: greenyellow;
+    border: 1px ridge yellow;
+    border-radius: 50px;
+    height: 40px;
+    width: 75px;
+}
+button:hover {
+    background-color: grey;
+}
