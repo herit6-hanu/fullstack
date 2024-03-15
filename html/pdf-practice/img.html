@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+</head>
+<body>
+    <p>Adding the image from the browser</p>
+    <img alt="hello" src="https://cdn.pixabay.com/photo/2023/08/05/14/24/twilight-8171206_1280.jpg">
+
+    <picture>
+        <source media="(min-width: 600px)" srcset="https://cdn.pixabay.com/photo/2023/08/05/14/24/twilight-8171206_1280.jpg">
+        <source media="(min-width: 450px)" srcset="https://cdn.pixabay.com/photo/2023/08/05/14/24/twilight-8171206_1280.jpg">
+        <img src="https://cdn.pixabay.com/photo/2023/08/05/14/24/twilight-8171206_1280.jpg" style="width:auto;">
+    </picture>
+
+
+    <img src="http://jaced.com/blogpix/2007/trisquarecircle/002.gif" usemap="#shapes">
+<map name="shapes">
+ <area shape="polygon" coords="79,6,5,134,153,134">
+ <area shape="rectangle" coords="177,6,306,134">
+ <area shape="circle" coords="397,71,65">
+</map>
+</body>
+</html>
