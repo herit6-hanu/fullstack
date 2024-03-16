@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Label</title>
+</head>
+<body>
+    <p>label as wrapper</p>
+    <label for="">
+        <input type="radio">
+        Do you like cats?
+    </label>
+    <input type="radio" name="" id="option">
+    <label for="option">Do you like cats?</label>
+
+    <form id="my-form" action="/login" method="POST">
+ 
+        <input id="username" type="text" name="username" />
+        <label for="pass">Password:</label>
+        <input id="pass" type="password" name="pass" />
+        <input type="submit" name="submit" />
+       </form>
+       <label for="username" form="my-form">Username:</label>
+       
+</body>
+</html>

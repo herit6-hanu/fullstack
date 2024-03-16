@@ -1,0 +1,47 @@
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+.header-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:chocolate ;
+}
+
+.color-box {
+    display: block;
+    background-color: black;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+.button-div {
+    margin-left: 50px;
+}
+
+#btn1 {
+    background-color: antiquewhite;
+    color:teal;
+    height: 35px;
+    width: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 480px;
+}
+
+
+.input-div {
+    margin-left: 50px;
+}
+
+.result-text {
+    margin-left: 50px;
+    font-weight: bolder;
+}
