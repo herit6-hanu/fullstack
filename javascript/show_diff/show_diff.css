@@ -1,0 +1,50 @@
+.mainbody {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: center;
+}
+
+
+.text-area {
+    height: 300px;
+    width: 900px;
+    resize: none;
+    border: 0.5px solid #00c281;
+    outline-color: #00c281;
+    outline-width: 1px;
+    border-radius: 5px;
+}
+
+
+.button-body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+#btn {
+    background-color: #00c281;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #00c281;
+}
+
+.result {
+    visibility: hidden;
+    display: flexbox;
+    position: relative;
+    border: 1px solid #00c281;
+    margin-top: 100px;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 300px;
+    border-radius: 5px;
+}
