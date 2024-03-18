@@ -1,3 +1,7 @@
+body {
+    background-color: aliceblue;
+}
+
 .mainbody {
     display: flex;
     flex-direction: column;
