@@ -36,17 +36,36 @@ button {
     cursor: pointer;
 }
 
+.error {
+    height: 5px;
+}
+
 .result-body {
     display: grid;
-    grid-template-columns: repeat(10, 50px);
+    grid-template-columns: repeat(15, 50px);
+    justify-items: center;
+    justify-content: center;
     margin-top: 30px;
-    border: 1px solid red;
     width: 50%;
-    height: 300px;
+    gap: 0;
+    grid-row-gap: 0;
 }
 
 .results {
-    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    text-wrap: balance;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 50px;
     height: 50px;
+}
+
+.results:nth-child(even) {
+    background-color: #00c281;
+}
+
+.results:nth-child(odd) {
+    background-color: blanchedalmond;
 }
