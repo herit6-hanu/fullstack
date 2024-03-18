@@ -1,14 +1,17 @@
 document.getElementById("btn").addEventListener("click", () => {
-    console.log("clicked");
     let number = Number(document.getElementById("input").value);
+    console.log(number);
     let i = 0;
-    if (number !== NaN || number !== "" || number !== undefined) {
+    if (number >0 && number !==NaN) {
         while (i < number) {
-        
+
+            i++;
+            
         }
     } else {
-        console.log(number);
-        document.getElementById("results").textContent="Please provide valid number..."
+        let error= document.createElement("p");
+        error.textContent="Please provide valid number...";
+        document.appendChild(error);
     }
     
 })
