@@ -3,6 +3,8 @@ document.getElementById("btn").addEventListener("click", () => {
     let resultBody = document.getElementsByClassName("result-body")[0];
 
     clearChildElements(resultBody);
+    let errorParagraph = document.getElementsByTagName("p")[0];
+    errorParagraph.textContent="";
     let i = 0;
     if (number >0 && number !==NaN) {
         while (i < number) {
@@ -14,9 +16,10 @@ document.getElementById("btn").addEventListener("click", () => {
             resultBody.appendChild(resultBlock);   
         }
     } else {
-        let errorParagraph = document.getElementsByTagName("p")[0];
-        errorParagraph.textContent = "Oops...Please enter valid number.";
+        
+        errorParagraph.textContent = "Oops...Invalid, Please enter valid number.";
         errorParagraph.style.color = "red";
+        errorParagraph.style.animation="vibrate 0.2s 1";
     }
 })
 
