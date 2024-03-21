@@ -19,6 +19,10 @@ class UserDefinedException extends Exception{
 	public String getMessage() {
 		return "please enter valid details";
 	}
+	public void printStackTrace() {
+		System.err.println("ndkjfkajf");
+	}
+	
 }
 
 
@@ -42,6 +46,7 @@ class Account {
 			System.out.println("access granted");
 		}else {
 			UserDefinedException ude = new UserDefinedException();
+			ude.printStackTrace();
 			throw ude;
 		}
 	}
