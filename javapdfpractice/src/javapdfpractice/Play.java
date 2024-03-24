@@ -18,6 +18,9 @@ class Team {
 
 	void print() {
 		System.out.println(member.getName());
+		System.out.println(member.getType());
+		System.out.println(member.getLevel());
+		System.out.println(member.getRank());
 	}
 }
 
@@ -38,4 +41,17 @@ class Member {
 	public String getName() {
 		return this.name;
 	}
+
+	public String getType() {
+		return type;
+	}
+
+	public int getLevel() {
+		return level;
+	}
+
+	public int getRank() {
+		return rank;
+	}
+	
 }
