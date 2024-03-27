@@ -3,6 +3,7 @@ package javapractice;
 public class DeadLock {
 
 	public static void main(String[] args) {
+
 		Printer p = new Printer();
 		Thread t1 = new Thread(p);
 		Thread t2 = new Thread(p);
@@ -10,6 +11,7 @@ public class DeadLock {
 		t1.start();
 		t2.start();
 		t3.start();
+		
 	}
 
 }
