@@ -2,7 +2,6 @@ package javapractice;
 
 public class Producer_Consumer {
 	public static void main(String[] args) {
-		StringBuffer sb=new StringBuffer();
 		Queue q = new Queue();
 		Produce p = new Produce(q);
 		Consume c = new Consume(q);

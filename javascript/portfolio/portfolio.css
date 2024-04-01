@@ -1,0 +1,39 @@
+body {
+    background-color: whitesmoke;
+
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+    gap: 50px;
+    padding: 50px;
+
+}
+
+
+.br {
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.left-sider {
+    height: 550px;
+    width: 500px;
+    
+}
+
+.middle-part {
+    width: 950px;
+    height: 100vh;
+}
+
+.right-sider {
+    width: 150px;
+    height: 450px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
