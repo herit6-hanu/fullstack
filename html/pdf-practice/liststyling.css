@@ -1,0 +1,5 @@
+li {
+    list-style: lower-greek;
+    list-style-image: url("200_200_e7ma0m.png");
+    list-style-position: inside;
+}
