@@ -3,3 +3,9 @@ li {
     list-style-image: url("200_200_e7ma0m.png");
     list-style-position: inside;
 }
+p[class] {
+    color: red;
+}
+p[class="para"] {
+    color: greenyellow;
+}
