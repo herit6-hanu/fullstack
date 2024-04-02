@@ -6,7 +6,7 @@ public class InlineDocumentation {
 	//FIXME
 	public static void main(String[] args) {
 		/**
-		 * This is multi line comment for the main method...
+		 * This is multiline comment for the main method...
 		 */
 		System.exit(1);
 	}
