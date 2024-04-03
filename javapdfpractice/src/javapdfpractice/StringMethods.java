@@ -17,6 +17,8 @@ public class StringMethods {
 		String regex = Pattern.quote(".");
 		System.out.println("aaa.bbb".split(regex).length);
 		System.out.println("aaa  af  ".split(" ",5).length);
+		String a="     dfgsdsdf    ";
+		System.out.println(a.trim());
 	}
 
 }
